@@ -11,6 +11,10 @@
 
 body{
     background-color: #181818;
+    margin-top: 100px;
+    box-sizing: border-box;
+
+    
 
 }
 main{
@@ -21,6 +25,10 @@ main{
    
    
 }
+
+
+
+
 #taf  {
     width: 4rem;
     }
@@ -31,18 +39,18 @@ main{
         color: #f8fafc;
         background-color: #262626;
         gap: 2rem;
-        padding: 5rem;
+        padding: 7rem;
     }
     
     #select{
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 0rem;
     }
     
         
 h1{
-    font-size: 2.25rem;
+    font-size: 6rem;
     position: absolute;
 }
 
@@ -50,19 +58,19 @@ h1{
     font-weight: 50;
     font-size: 1rem;
     color: #cbd5e1;
+    align-items: center;
 }
    
 .input-field{
     display: flex;
     background-color: transparent;
- 
     border: none;
     align-items: center;
     justify-content: space-between;
     background-color: #3f3f46;
-    padding: 0.3rem;
-    border-radius: 3px;
-    margin-top: 10px;
+    padding: 0.1rem;
+    border-radius: 1px;
+    margin-top: 1px;
 }
 
 
@@ -75,3 +83,4 @@ h1{
     padding: 0 0.5rem;
     
 }
+
