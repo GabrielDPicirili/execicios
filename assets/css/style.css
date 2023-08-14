@@ -1,19 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 /* Reset CSS */
-*{
-    margin: 0;
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     background-color: #181818;
-    color: aliceblue;
+color: white;
 }
-
-h1{
-    text-align: center;
-}
-
 main{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+   
 }
+
+#tarefas{
+    display: flex;
+    flex-direction: column;
+    color: #f8fafc;
+    background-color: #262626;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+    
+        
+h1{
+    font-size: 2.25rem;
+    position: relative;
+}
+    
