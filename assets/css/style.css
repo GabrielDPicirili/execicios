@@ -66,4 +66,12 @@ h1{
 }
 
 
-
+.input-field input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+    
+}
